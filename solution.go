@@ -12,6 +12,10 @@ import "math"
 
 type Sides int
 
+const SidesSquare Sides = 4
+const SidesTriangle Sides = 3
+const SidesCircle Sides = 0
+
 const PI = 3.14
 
 func CalcSquare(sideLen float64, sidesNum Sides) float64 {
