@@ -16,7 +16,7 @@ const SidesSquare Sides = 4
 const SidesTriangle Sides = 3
 const SidesCircle Sides = 0
 
-const PI = 3.14
+const PI = 3.141593
 
 func CalcSquare(sideLen float64, sidesNum Sides) float64 {
 	if sidesNum == 4 {
